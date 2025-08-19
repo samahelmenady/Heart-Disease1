@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/bd/b2/57/bdb257ac1ad3d30ff936f855e66d65da.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #2c1e1a; /* Dark brown for contrast */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d4a373; /* Warm gold to match background tones */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3c2f2f; /* Deep taupe for readability */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff8f0; /* Light cream background */
+    color: #2c1e1a; /* Dark brown text */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #d4a373; /* Warm gold border on focus */
+    box-shadow: 0 0 5px rgba(212, 163, 115, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8C1007; /* اللون الجديد */
+    color: #ffffff; /* White text for better contrast */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a81208; /* Slightly lighter shade on hover */
+}
+
+.error {
+    color: #a62626; /* Muted red for errors to stand out */
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.result {
+    background-color: rgba(248, 243, 236, 0.8); /* Light cream with transparency */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #8C1007; /* نفس لون الزرار */
+}
+
+.result h2 {
+    color: #8C1007; /* نفس لون الزرار */
+    margin-bottom: 15px;
+}
+
+.result p {
+    font-size: 18px;
+    color: #8C1007; /* النصوص بنفس اللون */
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+strong {
+    color: #d4a373; /* Warm gold for emphasis */
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #8C1007; /* نفس لون زرار Predict */
+    color: #ffffff; /* White text */
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #a81208; /* Hover نفس تأثير الزرار */
+}
